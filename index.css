@@ -74,8 +74,6 @@ ul {
     background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);  
     width: 100%;
     height:100vh;
-    
-   
 }
 
 .circles{
@@ -202,7 +200,27 @@ ul {
 	align-content: stretch;
 }
 
-.tthanks {
+.thanks {
+
+    color:rgb(255, 230, 0);
+ }
+ .hanks {
+
+    color:rgb(40, 75, 228);
+ }
+ .anks {
+
+    color:rgb(206, 25, 206);
+ }
+ .nks {
+
+    color:rgb(50, 109, 16);
+ }
+ .ks {
 
     color:red;
  }
+
+ button {
+	font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+}
