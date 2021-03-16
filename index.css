@@ -1,8 +1,9 @@
   div.title {
       text-align: center;
-      
+       
     
   }
+
 
   .insta {
 	display: flex;
@@ -200,3 +201,8 @@ ul {
 	align-items: stretch;
 	align-content: stretch;
 }
+
+.tthanks {
+
+    color:red;
+ }
