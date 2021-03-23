@@ -11,6 +11,11 @@
       align-content: flex-end;
   }
 
+
+  .article{
+      color: #4e54c8;
+      : 23em;
+  }
   body {
       width: 100%;
       background: linear-gradient(-45deg, #f39072, rgb(248, 119, 169), #7678fc, #5efad5);
