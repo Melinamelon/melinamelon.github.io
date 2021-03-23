@@ -2,12 +2,13 @@
       text-align: center;
   }
 
-  .insta {display: flex;
+  .insta {
+    display: flex;
 	flex-direction: row-reverse;
 	flex-wrap: nowrap;
 	justify-content: flex-start;
 	align-items: flex-end;
-	align-content: flex-end;
+	align-content: stretch;
   }
 
 
