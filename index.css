@@ -221,3 +221,50 @@
       position: fixed;
       bottom: 0;
   }
+
+  /* la lista de proyectos */
+
+  .proyect1 {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: flex-start;
+      align-items: stretch;
+      align-content: stretch;
+  }
+
+  .proyect2 {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: flex-start;
+      align-items: stretch;
+      align-content: stretch;
+  }
+
+  .proyect3 {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: flex-start;
+      align-items: stretch;
+      align-content: stretch;
+  }
+
+  .proyect4 {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: flex-start;
+      align-items: stretch;
+  }
+
+      /* article */
+
+      .article {
+          margin-bottom: 2em;
+      }
+      .article__title {
+          margin-bottom: 0.5em;
+          font-weight: 700;
+      }
