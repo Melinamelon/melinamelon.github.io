@@ -209,3 +209,15 @@
   button {
       font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
   }
+
+  /* footer here */
+
+  .footer {
+      color: #fff;
+      min-height: 70px;
+      background-color: #000000;
+      border-top: 1px solid rgba(50, 50, 50, 0.3);
+      width: 100%;
+      position: fixed;
+      bottom: 0;
+  }
