@@ -3,19 +3,17 @@
   }
 
   .insta {
-    display: flex;
-	flex-direction: row-reverse;
-	flex-wrap: nowrap;
-	justify-content: flex-start;
-	align-items: flex-end;
-	align-content: stretch;
+      display: flex;
+      flex-direction: row-reverse;
+      flex-wrap: nowrap;
+      justify-content: flex-start;
+      align-items: flex-end;
+      align-content: stretch;
   }
 
-
-  .article{
+  .article {
       color: #4e54c8;
-      size: 23em;
-
+      font-size: 23em;
   }
 
   body {
@@ -231,47 +229,45 @@
 
   /* la lista de proyectos */
 
-  .proyect1 {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: nowrap;
-      justify-content: flex-start;
-      align-items: stretch;
-      align-content: stretch;
+  .grid2x2 {
+    min-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
   }
+ 
+  
 
-  .proyect2 {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: nowrap;
-      justify-content: flex-start;
-      align-items: stretch;
-      align-content: stretch;
-  }
-
-  .proyect3 {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: nowrap;
-      justify-content: flex-start;
-      align-items: stretch;
-      align-content: stretch;
-  }
-
+  .proyect1,
+  .proyect2,
+  .proyect3,
   .proyect4 {
       display: flex;
       flex-direction: row;
       flex-wrap: nowrap;
       justify-content: flex-start;
       align-items: stretch;
+      align-content: stretch;
+      width: 50%;
   }
 
-      /* article */
+  /* article */
 
-      .article {
-          margin-bottom: 2em;
-      }
-      .article__title {
-          margin-bottom: 0.5em;
-          font-weight: 700;
-      }
+  .article {
+      margin-bottom: 2em;
+  }
+
+  .article__title {
+      margin-bottom: 0.5em;
+      font-weight: 700;
+  }
+
+  /* .btn {
+    background: #d6d5d4;
+  } */
+
+  .btn:hover,
+.btn:focus {
+  background: #f0aa8f;
+}
+
