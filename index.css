@@ -27,6 +27,10 @@
       margin-left: 0em;
   }
 
+  main {
+      padding-left: 120px;
+  }
+
   h1 {
       font-size: 64px;
   }
@@ -182,15 +186,6 @@
       }
   }
 
-  #divis {
-      display: flex;
-      flex-direction: column;
-      flex-wrap: nowrap;
-      justify-content: space-between;
-      align-items: stretch;
-      align-content: stretch;
-  }
-
   .thanks {
       color: rgb(255, 230, 0);
   }
@@ -211,10 +206,6 @@
       color: red;
   }
 
-  button {
-      font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
-  }
-
   /* footer here */
 
   .footer {
@@ -229,26 +220,23 @@
 
   /* la lista de proyectos */
 
-  .grid2x2 {
-    min-height: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+  #grid2x2 {
+      min-height: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      padding: 15px;
   }
- 
-  
 
-  .proyect1,
-  .proyect2,
-  .proyect3,
-  .proyect4 {
+  .proyect1, .proyect2, .proyect3, .proyect4 {
       display: flex;
       flex-direction: row;
       flex-wrap: nowrap;
       justify-content: flex-start;
       align-items: stretch;
       align-content: stretch;
-      width: 50%;
+      width: 40%;
+      padding: 10px;
   }
 
   /* article */
@@ -262,12 +250,12 @@
       font-weight: 700;
   }
 
-  /* .btn {
-    background: #d6d5d4;
-  } */
+  .btn {
+      background: #706a64;
+      padding: 9px;
+      margin-left: 20px;
+  }
 
-  .btn:hover,
-.btn:focus {
-  background: #f0aa8f;
-}
-
+  button {
+      font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+  }
