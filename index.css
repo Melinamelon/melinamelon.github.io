@@ -2,6 +2,20 @@
       text-align: center;
   }
 
+  .btn {
+      background: #cecfce;
+      padding: 9px;
+      margin-left: 20px;
+  }
+
+  button {
+      font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+  }
+
+  button:hover {
+      background-color: rgb(116, 119, 116);
+  }
+
   .title>h1 {
       font-size: 94px;
   }
@@ -17,6 +31,7 @@
       justify-content: flex-start;
       align-items: flex-end;
       align-content: stretch;
+      z-index: -5;
   }
 
   .article {
@@ -249,20 +264,6 @@
   .article__title {
       margin-bottom: 0.5em;
       font-weight: 700;
-  }
-
-  .btn {
-      background: #706a64;
-      padding: 9px;
-      margin-left: 20px;
-  }
-
-  button {
-      font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
-  }
-
-  button:hover {
-      color: rgb(153, 6, 116);
   }
 
   /* @media screen and (min-width: 900px) {
