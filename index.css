@@ -282,7 +282,7 @@
   #header {
       margin: auto;
       width: 500px;
-      font-family: Arial, Helvetica, sans-serif;
+      font-family:inherit;
   }
 
   ul, ol {
@@ -291,10 +291,10 @@
 
   .nav>li {
       float: left;
-  }
+    }
 
   .nav li a {
-      background-color: #000;
+      background-color:rgb(248, 119, 169);
       color: #fff;
       text-decoration: none;
       padding: 10px 12px;
