@@ -6,6 +6,7 @@
       background: #cecfce;
       padding: 9px;
       margin-left: 20px;
+      margin: 30px;
   }
 
   button {
@@ -274,18 +275,7 @@
 
   /* zona de menú desplegable */
 
-  * {
-      margin: 0px;
-      padding: 0px;
-  }
-
-  #header {
-      margin: auto;
-      width: 500px;
-      font-family:inherit;
-  }
-
-  ul, ol {
+    ul, ol {
       list-style: none;
   }
 
@@ -294,7 +284,7 @@
     }
 
   .nav li a {
-      background-color:rgb(248, 119, 169);
+      background-color:rgb(172, 172, 172);
       color: #fff;
       text-decoration: none;
       padding: 10px 12px;
@@ -302,17 +292,17 @@
   }
 
   .nav li a:hover {
-      background-color: #434343;
+      background-color: rgb(245, 160, 193);
   }
 
   .nav li ul {
       display: none;
-      position: absolute;
+      position:unset;
       min-width: 140px;
   }
 
   .nav li:hover>ul {
-      display: block;
+      display:flex
   }
 
   .nav li ul li {
